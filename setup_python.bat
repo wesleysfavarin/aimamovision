@@ -1,3 +1,4 @@
+
 @echo off
 echo ========================================
 echo Configurando o ambiente Python...
@@ -48,7 +49,8 @@ pip install contourpy==1.3.1 ^
 
 echo ========================================
 echo Instalacao concluida!
-echo Para ativar o ambiente virtual, use: venv\Scripts\activate
-echo Para rodar seu script, use: python seu_script.py
+echo Executando e abrindo o sistema.
+venv\Scripts\activate
+python mamografia_predictor.py
 echo ========================================
 pause
